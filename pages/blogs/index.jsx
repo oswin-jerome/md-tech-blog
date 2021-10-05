@@ -2,8 +2,8 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import Head from 'next/head'
-import PostCard from '../components/PostCart'
-import Header from './../components/Header'
+import PostCard from './../../components/PostCart'
+import Header from './../../components/Header'
 export default function Home({ posts }) {
   return (
     <div>
